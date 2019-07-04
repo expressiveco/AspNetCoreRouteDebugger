@@ -1,6 +1,8 @@
 # AspNetCoreRouteDebugger
 An ASP.NET Core Route Debugger implemented as a Razor Page. Read more about [Debugging ASP.NET Core Routes](https://ardalis.com/debugging-aspnet-core-routes).
 
+  - Supports both razor pages and views
+
 ## Sample
 
 Clone the rep. Run the sample project. Navigate to /routes. You should see a list of routes. Note that Razor Pages don't specify controllers/actions for their routes.
