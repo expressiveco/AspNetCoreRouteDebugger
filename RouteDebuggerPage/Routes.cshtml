@@ -1,5 +1,5 @@
-﻿@page
-@model RoutesModel
+@page
+@model RouteDebugging.Pages.RoutesModel
 @{
     ViewData["Title"] = "Routes";
 }
@@ -14,6 +14,7 @@
             <th>Controller</th>
             <th>Action</th>
             <th>Constraints/Verbs</th>
+            <td>RouteValues</td>
             <th>Name</th>
         </tr>
     </thead>
@@ -27,6 +28,7 @@
                     <td>@route.Controller</td>
                     <td>@route.Action</td>
                     <td>@route.Constraint</td>
+                    <td>@route.RouteValues</td>
                     <td>@route.Name</td>
                 </tr>
             }
